@@ -12,9 +12,9 @@ cask "neversleeps" do
   url "https://github.com/philipecomputacao/neversleeps/releases/download/v#{version}/neversleeps-#{version}.zip"
   name "neversleeps"
   desc "Keeps the Mac working with the lid closed (menu bar toggle for pmset disablesleep)"
-  homepage "https://github.com/philipecomputacao/neversleeps"
+  homepage "https://philipecomputacao.github.io/neversleeps/"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "neversleeps.app"
 
