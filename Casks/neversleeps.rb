@@ -1,13 +1,14 @@
 # Cask do neversleeps. Tap: philipecomputacao/neversleeps
 #
+#   brew trust philipecomputacao/neversleeps
 #   brew tap philipecomputacao/neversleeps
 #   brew install --cask neversleeps
 #
 # Atualizado automaticamente pelo publicar.sh do repositorio principal a cada
 # release (versao e sha256). Nao edite a mao.
 cask "neversleeps" do
-  version "1.0.1"
-  sha256 "8aa326353715aa17e6cfc7785255ba225f2961bfba63d02ea66f801f16e863ae"
+  version "1.0.2"
+  sha256 "8da76e79dc73b6e08eded0d6953a48feb762169031f4c6e73d13cb64ccdc9ca1"
 
   url "https://github.com/philipecomputacao/neversleeps/releases/download/v#{version}/neversleeps-#{version}.zip"
   name "neversleeps"
